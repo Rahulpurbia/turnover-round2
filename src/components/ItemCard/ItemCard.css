@@ -1,0 +1,48 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.42);
+    padding: 20px 25px;
+    gap: 5px;
+    border-radius: 2px;
+    max-width: 300px;
+}
+
+.card-image {
+    min-width: 200px;
+    height: 300px;
+}
+
+.product-details {
+    font-size: 0.85rem;
+}
+
+
+.price-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-details>div:first-child {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.price-details>div:last-child {
+    font-size: 0.8rem;
+}
+
+.final-price {
+    font-weight: bold;
+    font-size: 1rem;
+    color: red;
+}
+
+.discount {
+    background: rgb(170, 241, 170);
+    color: green;
+    padding: 5px 3px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+}
